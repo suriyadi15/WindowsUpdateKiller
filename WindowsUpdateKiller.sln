@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsUpdateKiller", "WindowsUpdateKiller\WindowsUpdateKiller.csproj", "{9716C139-9E4C-4570-A40C-A2BC5BED5278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsUpdateKillerService", "WindowsUpdateKillerService\WindowsUpdateKillerService.csproj", "{02FF609A-D7B0-46A5-AA9D-5FBA0DB4F153}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9716C139-9E4C-4570-A40C-A2BC5BED5278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9716C139-9E4C-4570-A40C-A2BC5BED5278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9716C139-9E4C-4570-A40C-A2BC5BED5278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9716C139-9E4C-4570-A40C-A2BC5BED5278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02FF609A-D7B0-46A5-AA9D-5FBA0DB4F153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02FF609A-D7B0-46A5-AA9D-5FBA0DB4F153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02FF609A-D7B0-46A5-AA9D-5FBA0DB4F153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02FF609A-D7B0-46A5-AA9D-5FBA0DB4F153}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F704374B-1A21-42B9-B397-C5C91AA7F393}
+	EndGlobalSection
+EndGlobal
