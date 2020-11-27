@@ -11,6 +11,13 @@ namespace WindowsUpdateKiller
         private const int delay = 5000; //in milisecond
         static void Main(string[] args)
         {
+            if (!AdministratorUtil.IsRunAsAdmin())
+            {
+                Console.WriteLine("This program must be run as an administrator!");
+                Console.ReadKey();
+                return;
+            }
+
             Thread t = new Thread(new ThreadStart(KillRunner))
             {
                 IsBackground = true
